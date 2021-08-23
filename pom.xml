@@ -14,7 +14,7 @@
 	<name>restApi</name>
 	<description>REST Api en Spring Boot</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>16</java.version>
 		<start-class>com.service.app.RestApiApplication</start-class>
 	</properties>
 	<dependencies>
