@@ -1,5 +1,6 @@
 package com.service.app;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.boot.SpringApplication;
@@ -33,7 +34,23 @@ public class RestApiApplication {
 		Empleado em13=new Empleado(13, "Alvarez", 90, 23000);
 		Empleado em14=new Empleado(14, "Cesar", 23, 12000);
 		Empleado em15=new Empleado(15, "Mauricio", 66, 52000);
-		return List.of(em1,em2,em3,em4,em5,em6,em7,em8,em9,em10,em11,em12,em12,em13,em14,em15);
+		List<Empleado> lista = new ArrayList<Empleado>();
+		lista.add(em1);
+		lista.add(em2);
+		lista.add(em3);
+		lista.add(em4);
+		lista.add(em5);
+		lista.add(em6);
+		lista.add(em7);
+		lista.add(em8);
+		lista.add(em9);
+		lista.add(em10);
+		lista.add(em11);
+		lista.add(em12);
+		lista.add(em13);
+		lista.add(em14);
+		lista.add(em15);
+		return lista;
 	}
 }
 
