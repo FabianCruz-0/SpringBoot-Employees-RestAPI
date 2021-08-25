@@ -15,7 +15,6 @@
 	<description>REST Api en Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
-		<start-class>com.service.app.RestApiApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -27,6 +26,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 	</dependencies>
 
