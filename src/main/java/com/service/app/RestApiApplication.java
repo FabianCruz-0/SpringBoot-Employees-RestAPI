@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,6 +17,7 @@ public class RestApiApplication {
 		SpringApplication.run(RestApiApplication.class, args);
 	}
 	
+	@CrossOrigin(origins="https://angular-consume-rest-api.herokuapp.com/")
 	@GetMapping
 	public List<Empleado> hello()
 	{
